@@ -2,11 +2,15 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "Flow Screen Button",
+      "versionNumber": "0.0.0.NEXT",
+      "versionDescription": "Initial version",
+      "definitionFile": "config/project-scratch-def.json"
     }
   ],
   "name": "StepLabs_FlowButton",
-  "namespace": "SLFB",
+  "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "51.0"
 }
