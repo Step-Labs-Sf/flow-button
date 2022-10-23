@@ -4,10 +4,10 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="StepLabs_FlowButton" />
-          <option name="connectionType" value="SFDX" />
+          <option name="connectionName" value="StepLabs-DevHub" />
+          <option name="connectionType" value="OAUTH" />
           <option name="defaultModuleName" value="StepLabs_FlowButton" />
-          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/StepLabs_FlowButton/OfflineSymbolTable.zip" />
+          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/StepLabs_DevHub/OfflineSymbolTable.zip" />
         </IlluminatedCloudConnection>
       </list>
     </option>

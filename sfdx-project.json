@@ -1,16 +1,18 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true,
-      "package": "Flow Screen Button",
-      "versionNumber": "0.0.0.NEXT",
-      "versionDescription": "Initial version",
-      "definitionFile": "config/project-scratch-def.json"
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "Screen Flow Navigation Button",
+            "versionNumber": "1.0.0.NEXT",
+            "versionName": "Initial version"
+        }
+    ],
+    "name": "StepLabs_FlowButton",
+    "namespace": "SLSFB",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "51.0",
+    "packageAliases": {
+        "Screen Flow Navigation Button": "0Ho7Q0000004CPvSAM"
     }
-  ],
-  "name": "StepLabs_FlowButton",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "51.0"
 }

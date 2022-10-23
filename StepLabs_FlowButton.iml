@@ -3,8 +3,8 @@
   <component name="FacetManager">
     <facet type="IlluminatedCloud" name="Illuminated Cloud">
       <configuration>
-        <option name="connectionName" value="StepLabs_FlowButton" />
-        <option name="connectionType" value="SFDX" />
+        <option name="connectionName" value="StepLabs-DevHub" />
+        <option name="connectionType" value="OAUTH" />
         <option name="moduleContents">
           <ModuleContents>
             <option name="contentSelectionType" value="PACKAGE_XML" />
@@ -23,7 +23,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.sfdx" />
       <excludeFolder url="file://$MODULE_DIR$/.sf" />
     </content>
-    <orderEntry type="jdk" jdkName="IlluminatedCloud (StepLabs_FlowButton/StepLabs_FlowButton)" jdkType="IlluminatedCloud" />
+    <orderEntry type="jdk" jdkName="IlluminatedCloud (StepLabs_FlowButton/StepLabs-DevHub)" jdkType="IlluminatedCloud" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

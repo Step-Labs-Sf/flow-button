@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <description>Navigation Button</description>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="label" type="String" label="Button Label" required="true" role="inputOnly"/>
+            <property name="variant" type="String" label="Button Variant" required="false" role="inputOnly" default="neutral"
+                      description="Accepted variants include base, neutral, brand, brand-outline, destructive, destructive-text, inverse, and success. This value defaults to neutral."/>
+            <property name="type" type="String" label="Navigation Type" required="true" role="inputOnly" default="NEXT"
+                      description="Accepted types include NEXT, BACK, PAUSE, FINISH."/>
+            <property name="iconName" type="String" label="Icon Name" required="false" role="inputOnly"
+                      description="The Lightning Design System name of the icon."/>
+            <property name="iconPosition" type="String" label="Icon Position" required="false" role="inputOnly"
+                      description="Options include left and right. This value defaults to left."/>
+            <property name="disabled" type="Boolean" label="Disabled" required="false" default="false" role="inputOnly"/>
+            <property name="classes" type="String" label="Button Classes" required="false" role="inputOnly"/>
+            <property name="innerValue" type="String" label="Component Value" role="outputOnly"
+                      description="Populated with Button Label in case user clicked the button, empty otherwise."/>
+        </targetConfig>
+    </targetConfigs>
+    <masterLabel>Navigation Button</masterLabel>
+</LightningComponentBundle>
