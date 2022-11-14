@@ -4,8 +4,8 @@
     <option name="allowRunningInParallel" value="false" />
     <option name="apexLogLevel" value="DEBUG" />
     <option name="calloutsLogLevel" value="INFO" />
-    <option name="connectionName" value="StepLabs-DevHub" />
-    <option name="connectionType" value="OAUTH" />
+    <option name="connectionName" value="StepLabs_FlowButton" />
+    <option name="connectionType" value="SFDX" />
     <option name="contextConfiguration" value="false" />
     <option name="databaseLogLevel" value="INFO" />
     <option name="directoryPath" />
