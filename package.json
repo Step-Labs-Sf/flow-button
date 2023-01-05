@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "description": "Salesforce App",
   "scripts": {
-    "create-version": "sfdx force:package:version:create -d force-app -w 100 -k pass --codecoverage",
-    "promote-version": "sfdx force:package:version:promote -p \"Screen Flow Navigation Button@1.2.0-1\"",
+    "create-version": "sfdx force:package:version:create -d force-app -w 100 --codecoverage -x",
+    "promote-version": "sfdx force:package:version:promote -p \"Screen Flow Navigation Button@1.3.0-1\"",
     "list-packages": "sfdx force:package:list",
     "list-package-versions": "sfdx force:package:version:list",
-    "install-package": "sfdx force:package:install --package \"Screen Flow Navigation Button@1.1.0-1\" -k pass",
+    "install-package": "sfdx force:package:install --package \"Screen Flow Navigation Button@1.1.0-1\"",
     "display-ancestry": "sfdx force:package:version:displayancestry -p \"Screen Flow Navigation Button@1.2.0-1\""
   },
   "devDependencies": {
