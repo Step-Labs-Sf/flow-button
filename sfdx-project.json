@@ -6,7 +6,8 @@
             "package": "Screen Flow Navigation Button",
             "versionNumber": "1.3.0.NEXT",
             "ancestorVersion": "1.2.0.1",
-            "versionName": "Screen Flow Navigation Button"
+            "versionName": "Screen Flow Navigation Button",
+            "releaseNotesUrl": "https://github.com/Step-Labs-Sf/flow-button-doc/wiki"
         }
     ],
     "name": "StepLabs_FlowButton",
